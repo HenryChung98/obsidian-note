@@ -11,11 +11,20 @@ import numpy as np
 ```python
 import matplotlib.pyplot as plt
 ```
-[[1-Drawing Graphs]]
+[[1-Drawing Graphs(matplotlib)]]
+[[2-Decorating Graphs]]
 
 ### Pandas
 ```python
 import pandas as pd
 ```
 [[1-Data Frame]]
-[[2-Read CSV File]]
+[[2-File Handling]]
+[[3-Data Handling]]
+
+### Seaborn
+```python
+!conda install --yes seaborn
+import seaborn as sns
+```
+[[1-Drawing Graphs(seaborn)]]

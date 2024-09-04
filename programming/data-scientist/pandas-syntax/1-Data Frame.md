@@ -24,6 +24,7 @@ print(df['quantity'])
 | 1   | 15  |
 | 2   | 6   |
 | 3   | 11  |
+
 Name: quantity, dtype: int64
 
 
@@ -71,3 +72,20 @@ array_df = pd.DataFrame(two_dimensional_array, columns=['category', 'quantity', 
 | coat     | 6        | 95    |
 | jeans    | 11       | 35    |
 
+```python
+df.shape
+# (row num, col num)
+
+df.dtypes
+# show all data types of columns
+
+players_df.sort_values(by='matches', ascending=False)
+# sort data frame depending on matches
+
+players_df.describe()
+# show all data(count, mean, std, max, etc)
+
+players_df.describe(include='all')
+# show all data including NaN
+
+```
