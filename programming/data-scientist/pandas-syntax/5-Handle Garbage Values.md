@@ -1,56 +1,56 @@
 #### Find Missing Values
 ```python
-df.info()
 # show info(non-null count, dtype, etc)
+df.info()
 
-df.isna()
 # return boolean table(true if NaN else false)
+df.isna()
 
-df.isna().sum()
 # num of NaN
+df.isna().sum()
 
-df.isna().any(axis=1)
 # row 방향으로 missing value 있는지 없는지 확인 / axis=0 행방향으로
+df.isna().any(axis=1)
 
-df[df.isna().any(axis=1)]
 # return rows which have missing value
+df[df.isna().any(axis=1)]
 ```
 
 #### Handling Missing Values
 ```python
-df.dropna()
 # delete rows which have missing value
+df.dropna()
 
 mean = df['col'].mean()
-df['col'].fillna(mean)
 # fill NaN to mean value
+df['col'].fillna(mean)
 
-df.isna().sum()
 # check
+df.isna().sum()
 ```
 
 #### Find Duplicated Values
 ```python
-df.duplicated().sum()
 # num of duplicated
+df.duplicated().sum()
 
-df[df.duplicated()]
 # 모든컬럼 값이 다 똑같을때 나옴
+df[df.duplicated()]
 
-df[df.duplicated(subset='id', keep=False)]
 # id만 중복되어도 나옴
+df[df.duplicated(subset='id', keep=False)]
 ```
 
 #### Handle Duplicated Values
 ```python
-df.drop_duplicates()
 # delete duplicated rows
+df.drop_duplicates()
 
-df.drop_duplicates(subset='id', keep='first')
 # id가 중복될때 처음값빼고 지움
+df.drop_duplicates(subset='id', keep='first')
 
-df.drop_duplicates(subset='id', keep='last')
 # id가 중복될때 맨 나중값빼고 지움
+df.drop_duplicates(subset='id', keep='last')
 ```
 
 #### Find Outlier Values

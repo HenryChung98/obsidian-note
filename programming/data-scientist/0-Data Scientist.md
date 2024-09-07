@@ -1,3 +1,9 @@
+### Anaconda update
+```python
+!conda update conda -y 
+!conda update --all -y
+```
+
 ### Numpy
 ```python
 import numpy as np

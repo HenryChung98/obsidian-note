@@ -6,6 +6,7 @@ plt.show()
 
 
 ```python
+# hue: x값에서 여러그룹으로 나눌때
 sns.barplot(data=df, x='month', y='total', hue='workingday')
 ```
 ![[bar-plot.png|350]]
