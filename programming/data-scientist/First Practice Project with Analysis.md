@@ -25,7 +25,6 @@ df['year'] = df['연월'].str.split('-').str[0]
 ```python
 ym_data = df.groupby('연월').sum(numeric_only=True).reset_index()
 
-
 sns.barplot(data=ym_data, x='연월', y='이용금액') # 연월 * 이용금액 그래프 그림
 plt.rc('font', family='AppleGothic') # 한글이면 이거 필요함
 plt.rcParams['figure.figsize'] = (10, 5) # 그래프 사이즈 조정
@@ -38,9 +37,33 @@ plt.ylabel('이용금액(억)') # label 지정
 plt.gca().yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'{x/100000000:,.0f}'))
 ```
 
+#### Sort
+```python title:sorted_by_year
+order = sorted(df['year'].unique(), reverse=False)
+sns.barplot(data=df, x='year', y='이용금액', hue='연령대', order=order)
+```
+
+```python title:sorted_by_categories
+df['연령대'] = pd.Categorical(jeju_card_df['연령대'], categories=['20대미만', '20대', '30대', '40대', '50대', '60대이상'], ordered=True)
+
+groupby_ym_age = jeju_card_df.groupby(['연도', '연령대']).sum(numeric_only=True).reset_index()
+...
+```
 
 #### Compare Data
 ```python
 # `year`, `연령대` 두 개의 컬럼을 기준으로 groupby
 age_group = df.groupby(['year', '연령대']).sum(numeric_only=True).reset_index()
+```
+
+#### Pie Chart
+```python
+# 연령대별로 나눈 숫자값 데이터 다 가져옴
+groupby_age = df.groupby('연령대').sum(numeric_only=True).reset_index()
+# 이용자수 %로 나눈 파이차트
+groupby_age.plot(kind='pie', y='이용자수', labels=groupby_age['연령대'], autopct='%.1f%%')
+# title
+plt.title('연령대별 카드 이용자 수 비중')
+# legend 위치 조정
+plt.legend(loc='upper left', bbox_to_anchor=(1, 1))
 ```

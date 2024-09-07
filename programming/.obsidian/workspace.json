@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "fed04039f98dec89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "game-development/unreal/AI Character.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "conda",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "game-development/unreal/AI Character.md",
+                "file": "data-scientist/First Practice Project with Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "game-development/unreal/AI Character.md",
+                "file": "data-scientist/First Practice Project with Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "game-development/unreal/AI Character.md"
+                "file": "data-scientist/First Practice Project with Analysis.md"
               }
             }
           },
@@ -166,19 +153,22 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fed04039f98dec89",
+  "active": "cfbc62a8a7079292",
   "lastOpenFiles": [
     "data-scientist/pandas-syntax/1-Data Frame.md",
-    "data-scientist/0-Data Scientist.md",
+    "data-scientist/First Practice Project with Analysis.md",
+    "jeju_card.csv",
+    "data-scientist/data/jeju_card.csv",
+    "data-scientist/data",
+    "Untitled.md",
     "game-development/unreal/AI Character.md",
+    "data-scientist/0-Data Scientist.md",
     "data-scientist/numpy-syntax/1-Array.md",
     "data-scientist/numpy-syntax/2-2D Array.md",
     "game-development/unreal",
-    "data-scientist/First Practice Project with Analysis.md",
     "game-development",
     "새 폴더",
     "data-scientist/seaborn-syntax/1-Drawing Graphs(seaborn).md",
@@ -207,16 +197,12 @@
     "Untitled.canvas",
     "data-scientist/numpy/Import Numpy.md",
     "data-scientist/pandas/Import Pandas.md",
-    "data-scientist/matplotlib/Import Matplotlib.md",
     "data-scientist/matplotlib-syntax/images/plot-graph.png",
     "data-scientist/pandas-syntax/syntax",
     "data-scientist/pandas-syntax",
     "data-scientist/matplotlib-syntax/images/decorate-graph.png",
     "data-scientist/matplotlib-syntax/images/scatter-graph.png",
     "data-scientist/matplotlib-syntax/images/bar-graph.png",
-    "data-scientist/matplotlib-syntax/images",
-    "des1 1.png",
-    "data-scientist/matplotlib-syntax/syntax",
-    "data-scientist/matplotlib-syntax"
+    "des1 1.png"
   ]
 }
