@@ -2,5 +2,7 @@
   "mousewheel-image-zoom",
   "table-editor-obsidian",
   "obsidian-admonition",
-  "editing-toolbar"
+  "editing-toolbar",
+  "execute-code",
+  "code-styler"
 ]

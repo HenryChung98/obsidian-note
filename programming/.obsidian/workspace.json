@@ -4,30 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "a73cba2497de7b04",
+        "id": "5cb8fccd264a0a71",
         "type": "tabs",
         "children": [
           {
-            "id": "2a8547faa57ef9e2",
+            "id": "cfbc62a8a7079292",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data-scientist/seaborn-syntax/1-Drawing Graphs(seaborn).md",
+                "file": "data-scientist/First Practice Project with Analysis.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "faa62ec68869f1b1",
+            "id": "fed04039f98dec89",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "game-development/unreal/AI Character.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 224.5
   },
   "right": {
     "id": "3c9c109c41bd5246",
@@ -93,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data-scientist/seaborn-syntax/1-Drawing Graphs(seaborn).md",
+                "file": "game-development/unreal/AI Character.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data-scientist/seaborn-syntax/1-Drawing Graphs(seaborn).md",
+                "file": "game-development/unreal/AI Character.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data-scientist/seaborn-syntax/1-Drawing Graphs(seaborn).md"
+                "file": "game-development/unreal/AI Character.md"
               }
             }
           },
@@ -161,14 +166,24 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "2a8547faa57ef9e2",
+  "active": "fed04039f98dec89",
   "lastOpenFiles": [
+    "data-scientist/pandas-syntax/1-Data Frame.md",
+    "data-scientist/0-Data Scientist.md",
+    "game-development/unreal/AI Character.md",
+    "data-scientist/numpy-syntax/1-Array.md",
+    "data-scientist/numpy-syntax/2-2D Array.md",
+    "game-development/unreal",
+    "data-scientist/First Practice Project with Analysis.md",
+    "game-development",
+    "새 폴더",
+    "data-scientist/seaborn-syntax/1-Drawing Graphs(seaborn).md",
     "data-scientist/matplotlib-syntax/1-Drawing Graphs(matplotlib).md",
     "data-scientist/matplotlib-syntax/2-Decorating Graphs.md",
-    "First Practice Project with Analysis.md",
     "data-scientist/pandas-syntax/10-Analysis by Group.md",
     "data-scientist/pandas-syntax/9-Combine.md",
     "data-scientist/pandas-syntax/7-Normalization and Standardization.md",
@@ -177,13 +192,8 @@
     "data-scientist/pandas-syntax/4-Set Structure, Series.md",
     "data-scientist/pandas-syntax/3-Data Handling.md",
     "data-scientist/pandas-syntax/2-File Handling.md",
-    "data-scientist/0-Data Scientist.md",
-    "data-scientist/pandas-syntax/1-Data Frame.md",
     "data-scientist/pandas-syntax/8-Date Data Type.md",
-    "data-scientist/seaborn-syntax/1-Drawing Graphs(seaborn).md",
     "data-scientist/numpy-syntax/3-Basic Operators.md",
-    "data-scientist/numpy-syntax/2-2D Array.md",
-    "data-scientist/numpy-syntax/1-Array.md",
     "data-scientist/seaborn-syntax/images/box-plot.png",
     "data-scientist/seaborn-syntax/images/bar-plot.png",
     "data-scientist/seaborn-syntax/images",
@@ -207,11 +217,6 @@
     "data-scientist/matplotlib-syntax/images",
     "des1 1.png",
     "data-scientist/matplotlib-syntax/syntax",
-    "data-scientist/matplotlib-syntax",
-    "numpy/syntax/Indexing.md",
-    "data-scientist/numpy-syntax/syntax",
-    "data-scientist/jupyter/Jupyter Useful Shortcuts.md",
-    "data-scientist/numpy-syntax",
-    "data-scientist/jupyter"
+    "data-scientist/matplotlib-syntax"
   ]
 }
