@@ -6,6 +6,9 @@ import seaborn as sns
 
 df = pd.read_csv('data/jeju_card.csv')
 
+# all data round up by third decimal point
+pd.options.display.float_format = '{:.3f}'.format
+
 # search data
 df.shape # get row * col
 df.info() 
@@ -66,4 +69,35 @@ groupby_age.plot(kind='pie', y='이용자수', labels=groupby_age['연령대'], 
 plt.title('연령대별 카드 이용자 수 비중')
 # legend 위치 조정
 plt.legend(loc='upper left', bbox_to_anchor=(1, 1))
+```
+
+#### Useful functions
+```python title:get_all_unique_index_and_the_values
+def print_unique_values(df):
+    object_columns = df.columns[df.dtypes == 'object']
+    for col in object_columns:
+        print(f"{col} unique num: {df[col].nunique()}")
+        print(sorted(df[col].unique()), '\n')
+```
+
+```python title:combine_multiple_data
+# remove trash data
+df1 = df1[jeju_reg_18_df['col'] != 'trash data']
+df2 = df2[jeju_reg_18_df['col'] != 'trash data']
+
+# concatenate two data
+df = pd.concat([df1, df2])
+
+# sanitize
+jeju_reg_df['연월'] = jeju_reg_df['연월'].str[:7]
+```
+
+```python title:get_top5_index['data']
+top5 = groupby_reg.sort_values(by='data', ascending=False).iloc[:5].index
+
+groupby_reg_sec = jeju_reg_df.groupby(['col1', 'col2']).sum(numeric_only=True).reset_index()
+
+for reg in top5:
+    reg_df = groupby_reg_sec[groupby_reg_sec['col1'] == reg]
+    print(reg, reg_df.sort_values(by='data', ascending=False).iloc[:5]['업종명'].tolist())
 ```
