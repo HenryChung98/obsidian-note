@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data-scientist/First Practice Project with Analysis.md",
+                "file": "data-scientist/pandas-syntax/2-File Handling.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data-scientist/First Practice Project with Analysis.md",
+                "file": "data-scientist/pandas-syntax/2-File Handling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data-scientist/First Practice Project with Analysis.md",
+                "file": "data-scientist/pandas-syntax/2-File Handling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data-scientist/First Practice Project with Analysis.md"
+                "file": "data-scientist/pandas-syntax/2-File Handling.md"
               }
             }
           },
@@ -158,9 +158,9 @@
   },
   "active": "cfbc62a8a7079292",
   "lastOpenFiles": [
-    "game-development/unreal/AI Character.md",
-    "data-scientist/First Practice Project with Analysis.md",
     "data-scientist/pandas-syntax/1-Data Frame.md",
+    "data-scientist/First Practice Project with Analysis.md",
+    "game-development/unreal/AI Character.md",
     "Useful Code Execute Functions.md",
     "jeju_card.csv",
     "data-scientist/data/jeju_card.csv",
