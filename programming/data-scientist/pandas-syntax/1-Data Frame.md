@@ -1,4 +1,4 @@
-```python hl:7 title:basic_dataframe ref:[[0-Data Scientist]]
+```python
 df = pd.DataFrame({
     'category': ['skirt', 'sweater', 'coat', 'jeans'],
     'quantity': [10, 15, 6, 11],

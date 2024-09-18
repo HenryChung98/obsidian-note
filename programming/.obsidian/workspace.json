@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "a427d95897a6d357",
+    "id": "368f65f2a2248220",
     "type": "split",
     "children": [
       {
-        "id": "811ef9442ea723f3",
+        "id": "5903789669d85444",
         "type": "tabs",
         "children": [
           {
-            "id": "6e5b154b47efd61e",
+            "id": "6745a7291861c641",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Automation/Selenium.md",
+                "file": "Useful Code Execute Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "19c7be46ff54ef32",
+    "id": "458d21adebb1dfdc",
     "type": "split",
     "children": [
       {
-        "id": "ffefd32c4cf2f6a0",
+        "id": "8008413814e9f339",
         "type": "tabs",
         "children": [
           {
-            "id": "958dcc6e087de1b7",
+            "id": "606f6635422af060",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,12 +43,12 @@
             }
           },
           {
-            "id": "c707eb016fe73d8d",
+            "id": "ddd65712b6e3d371",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "qcut",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "55fd8e4001af7d9f",
+            "id": "7a198b51edbfe114",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "3c9c109c41bd5246",
+    "id": "233f313882a726ba",
     "type": "split",
     "children": [
       {
-        "id": "c879d50571569232",
+        "id": "b34fbf2b8319e5fb",
         "type": "tabs",
         "children": [
           {
-            "id": "17bd1d576be69428",
+            "id": "bfed663e30c32818",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Automation/Selenium.md",
+                "file": "Useful Code Execute Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "f3bd7700c1bde7d2",
+            "id": "b05a9591dc2511a5",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Automation/Selenium.md",
+                "file": "Useful Code Execute Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "d244215ae3fc50ce",
+            "id": "0e14d1d3064c964c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,90 +120,33 @@
             }
           },
           {
-            "id": "441096b990330024",
+            "id": "518fff83d25940e2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Automation/Selenium.md"
+                "file": "Useful Code Execute Functions.md"
               }
             }
-          },
-          {
-            "id": "6c5cb559bb2e1b03",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "6e5b154b47efd61e",
-  "lastOpenFiles": [
-    "Web Automation/Beautiful Soup Syntax.md",
-    "Web Automation/Selenium.md",
-    "game-development/unreal/AI Character.md",
-    "game-development/Temple Run Clone.md",
-    "UserTesting.md",
-    "game-development/unreal/Infinite Scroll.md",
-    "Web Automation",
-    "data-scientist/RFM Analysis.md",
-    "data-scientist/First Practice Project with Analysis.md",
-    "data-scientist/pandas-syntax/1-Data Frame.md",
-    "data-scientist/0-Data Scientist.md",
-    "data-scientist/numpy-syntax/1-Array.md",
-    "data-scientist/numpy-syntax/2-2D Array.md",
-    "game-development/unreal",
-    "game-development",
-    "새 폴더",
-    "data-scientist/seaborn-syntax/1-Drawing Graphs(seaborn).md",
-    "data-scientist/matplotlib-syntax/1-Drawing Graphs(matplotlib).md",
-    "data-scientist/matplotlib-syntax/2-Decorating Graphs.md",
-    "data-scientist/pandas-syntax/10-Analysis by Group.md",
-    "data-scientist/pandas-syntax/9-Combine.md",
-    "data-scientist/pandas-syntax/7-Normalization and Standardization.md",
-    "data-scientist/pandas-syntax/6-Handle String Values.md",
-    "data-scientist/pandas-syntax/5-Handle Garbage Values.md",
-    "data-scientist/pandas-syntax/4-Set Structure, Series.md",
-    "data-scientist/pandas-syntax/3-Data Handling.md",
-    "data-scientist/pandas-syntax/2-File Handling.md",
-    "data-scientist/pandas-syntax/8-Date Data Type.md",
-    "data-scientist/numpy-syntax/3-Basic Operators.md",
-    "data-scientist/seaborn-syntax/images/box-plot.png",
-    "data-scientist/seaborn-syntax/images/bar-plot.png",
-    "data-scientist/seaborn-syntax/images",
-    "data-scientist/seaborn-syntax/images/swarm-plot.png",
-    "data-scientist/seaborn-syntax/images/strip-plot.png",
-    "data-scientist/seaborn-syntax",
-    "data-scientist/matplotlib-syntax/images/box-plot.png",
-    "data-scientist/numpy-syntax/4-Boolean Indexing.md",
-    "Untitled.canvas",
-    "data-scientist/matplotlib-syntax/images/plot-graph.png",
-    "data-scientist/pandas-syntax/syntax",
-    "data-scientist/pandas-syntax",
-    "data-scientist/matplotlib-syntax/images/decorate-graph.png",
-    "data-scientist/matplotlib-syntax/images/scatter-graph.png",
-    "data-scientist/matplotlib-syntax/images/bar-graph.png",
-    "data-scientist/matplotlib-syntax/images",
-    "des1 1.png",
-    "data-scientist/matplotlib-syntax/syntax"
-  ]
+  "active": "6745a7291861c641",
+  "lastOpenFiles": []
 }
